@@ -2,18 +2,21 @@
 .btn-bd-primary {
     background-color: purple;
     color: black;
+    width: 300px;
+    height: 100px;
+    font-size: 50px;
   }
   image{
     padding: 4px;
     border: 2px;
-    border-color: black;
+    border-color:rgb(205, 113, 242);
     border-radius: 8px;
-    background-color: black;
+    background-color: rgb(205, 113, 242);
     box-shadow: inset;
     
   }
   .header{
-    background-color: black;
+    background-color: rgb(205, 113, 242);
   }
   .li-expand {
           flex-wrap: nowrap;
@@ -25,7 +28,7 @@
             margin: 0;
             padding: 0;
             overflow: hidden;
-            background-color: #333;
+            background-color: rgb(205, 113, 242);
           }
           
           li {
@@ -48,7 +51,7 @@
           }
           li {
             display: inline;
-            background-color: black;
+            background-color: rgb(0, 0, 0);
             
           }
           .active {
@@ -62,4 +65,30 @@
           .logo img {
             width: 50px; 
             height: auto;
+            border-radius: 50%;
         }
+        .image-1{
+          width: 100px;
+          border-radius: 8px;
+          margin-right: 50px;
+        }
+        text{
+          background-color: #de90ff;
+          margin-left: 20px;
+          display: inline;
+          
+        }
+        .container {
+          display: flex;
+          align-items: center;}
+          .containers {
+            display: flex;
+          align-items: center;
+          }
+          .normal-text{
+            font-size: 50px;
+          }
+          .image-2{
+            border-radius: 8px;
+            margin-left: 50px;
+          }
